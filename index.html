@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri + Vue + Typescript App</title>
+    <script>
+      // 简单的Tauri环境测试脚本
+      try {
+        if (window.location.href.includes('localhost:1420') && 
+            window.location.protocol === 'http:') {
+          console.log('警告: 检测到直接通过浏览器访问，Tauri功能可能不可用');
+        }
+      } catch (e) {}
+    </script>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

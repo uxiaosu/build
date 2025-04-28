@@ -1,0 +1,11 @@
+# 配置已取消，使用官方默认源
+# 如需重新启用镜像，请取消下方注释
+
+# [source.crates-io]
+# replace-with = "ustc-http"
+
+# [source.ustc-http]
+# registry = "https://mirrors.ustc.edu.cn/crates.io-index/"
+
+# [net]
+# git-fetch-with-cli = false 
